@@ -24,12 +24,6 @@ const UpcomingEvents = () => {
     let theme = createTheme();
     theme = responsiveFontSizes(theme);
 
-    const [expanded, setExpanded] = React.useState(false);
-
-    const handleChange = (panel) => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
-
     return(
         <> 
             <ThemeProvider theme={theme} >

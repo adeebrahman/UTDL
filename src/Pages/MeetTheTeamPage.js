@@ -2,13 +2,8 @@ import React from 'react'
 import { 
     Grid, 
     Typography, 
-    createTheme, 
-    responsiveFontSizes,
-    ThemeProvider,
-    Box 
     } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import ReactPlayer from 'react-player'
 import members_header from '../img/members_bg.jpg'
 import MemberProfile from '../Components/MemberProfile';
 
