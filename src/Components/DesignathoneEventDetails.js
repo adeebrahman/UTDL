@@ -8,7 +8,8 @@ import {
     ThemeProvider,
     Box,
     Tabs,
-    Tab 
+    Tab,
+    Divider 
     } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
@@ -77,7 +78,6 @@ const DesignathonEventDetails = () => {
                                 Event Details
                             </Typography>
                     </Box>
-
 
 
                     <Grid

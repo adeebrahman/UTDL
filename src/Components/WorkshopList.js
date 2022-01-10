@@ -52,6 +52,7 @@ const WorkshopList = () => {
                         expanded={expanded === 'panel1'} 
                         onChange={handleChange('panel1')}
                         sx={{ bgcolor: '#B3E5FC'}}
+                        id='fusion360_beginner'
                         >
                             <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -122,6 +123,7 @@ const WorkshopList = () => {
                         expanded={expanded === 'panel3'} 
                         onChange={handleChange('panel3')}
                         sx={{ bgcolor: '#B3E5FC'}}
+                        id='ansys_mod'
                         >
                             <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -240,6 +242,7 @@ const WorkshopList = () => {
                         expanded={expanded === 'panel6'} 
                         onChange={handleChange('panel6')}
                         sx={{ bgcolor: '#B3E5FC'}}
+                        id='autodesk_gd_1'
                         >
                             <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -271,6 +274,7 @@ const WorkshopList = () => {
                         expanded={expanded === 'panel7'} 
                         onChange={handleChange('panel7')}
                         sx={{ bgcolor: '#B3E5FC'}}
+                        
                         >
                             <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -278,7 +282,7 @@ const WorkshopList = () => {
                             id="panel7bh-header"
                             >
                                 <Typography sx={{ width: '33%', flexShrink: 0, fontWeight: '700' }}>
-                                    Autodesk Generative Design 1
+                                    Autodesk Generative Design 2
                                 </Typography>
                                 <Typography sx={{ color: 'text.secondary' }}>
                                     February 16, 2022 [Online]

@@ -10,6 +10,7 @@ import DesignathonDescription from './Components/DesignathonDescription';
 import DesignathonEventDetails from './Components/DesignathoneEventDetails';
 import DesignathonFAQs from './Components/DesignathonFAQ';
 import MeetTheTeam from './Pages/MeetTheTeamPage';
+import Navbar from './Components/Navbar.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
           <Route path="/Designathon" element={
             <>
+              <Navbar/>
               <DesignathonDescription/> <br/>
               <DesignathonEventDetails />
               <br/>

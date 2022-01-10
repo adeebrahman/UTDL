@@ -107,16 +107,16 @@ const WorkshopIntro = () => {
                                 </Box>
 
                                 <Box sx={{ mx: "auto", width: 200, my: 2 }}>
-                                    <Button variant="contained" href="#" sx={{ my: 1}}>
-                                        Selection 1
+                                    <Button variant="contained" href="#fusion360_beginner" sx={{ my: 1}}>
+                                        Fusion 360 Beginner
                                     </Button>
 
-                                    <Button variant="contained" href="#" sx={{ my: 1}}>
-                                        Selection 2
+                                    <Button variant="contained" href="#ansys_mod" sx={{ my: 1}}>
+                                        Introduction to ANSYS Modelling
                                     </Button>
 
-                                    <Button variant="contained" href="#" sx={{ my: 1}}>
-                                        Selection 3
+                                    <Button variant="contained" href="#autodesk_gd_1" sx={{ my: 1}}>
+                                        Autodesk Generative Design
                                     </Button>
                                 </Box>
 

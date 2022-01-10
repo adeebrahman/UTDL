@@ -6,6 +6,8 @@ import {
 import { makeStyles } from '@mui/styles';
 import members_header from '../img/members_bg.jpg'
 import MemberProfile from '../Components/MemberProfile';
+import Navbar from '../Components/Navbar.js';
+
 
 
 const useStyles = makeStyles({
@@ -35,6 +37,7 @@ const MeetTheTeam = () =>{
     const classes = useStyles();
     return(
         <>
+            <Navbar/>
             <div className={classes.page_header}>
                     
                     <Grid
